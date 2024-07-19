@@ -19,7 +19,7 @@ header {
 }
 .header__container {
   margin: 0 auto;
-  max-width: 1600px;
+  max-width: 1700px;
   width: 100%;
   min-height: 150px;
   display: flex;
@@ -29,7 +29,7 @@ header {
 
 
 .header-nav-items {
-  width: 600px;
+  width: 700px;
   justify-content: space-between;
   list-style: none;
   display: flex;
@@ -44,6 +44,7 @@ header {
   margin-right: 0;
 }
 .header-nav-items a {
+  text-transform: uppercase;
   cursor: pointer;
   text-decoration: none;
   font-weight: 400;
@@ -59,6 +60,9 @@ header {
   font-size: 32px;
   color: rgb(60, 59, 59);
 }
+.logo-svg{
+  margin-top: -20px;
+}
 .main__container {
   margin: 0 auto;
   max-width: 1920px;
@@ -70,7 +74,7 @@ header {
   width: 100%;
   background-image: url(./img/utensils.jpg);
   min-height: 770px;
-  background-position: center;
+  background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
 }
