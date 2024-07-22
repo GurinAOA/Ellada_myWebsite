@@ -82,7 +82,7 @@ header {
   max-width: 1920px;
   width: 100%;
   background-image: url(./img/utensils.jpg);
-  min-height: 770px;
+  min-height: 600px;
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -119,16 +119,10 @@ header {
   .header-nav-items {
     width: 600px;
   }
-  .swiper-pagination {
-    display: none !important;
-  }
 }
 @media (max-width: 768px) {
   .main__container-img {
     min-height: 270px;
-  }
-  .swiper-pagination {
-    top: 350px !important;
   }
   .header__container {
     flex-direction: column;
@@ -173,25 +167,4 @@ header {
   .header__container {
     flex-wrap: wrap;
   }
-}
-
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-
-.swiper {
-  width: 100%;
-  height: 750px;
-}
-
-.swiper-slide {
-  background-position: center;
-  background-size: cover;
-}
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
 }
