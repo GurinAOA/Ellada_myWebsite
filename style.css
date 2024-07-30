@@ -62,6 +62,10 @@ header {
   font-size: 22px;
   color: rgb(60, 59, 59);
 }
+.phone {
+  width: 20px;
+  height: 20px;
+}
 main {
   margin: 0 auto;
 }
@@ -180,6 +184,12 @@ main {
   }
   .card {
     width: 300px !important;
+  }
+  .title {
+    font-size: 24px !important;
+  }
+  h1 {
+    font-size: 24px;
   }
 }
 h1 {
@@ -338,4 +348,54 @@ footer {
   border: 1px solid #70c05b;
   background-color: #70c05b;
   color: #fff;
+}
+.about__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  color: #414141;
+  text-align: center;
+}
+.main__container-about {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+.title {
+  font-size: 32px;
+}
+.main__container-contacts{
+  max-width: 500px;
+  width:100%;
+  margin: 0 auto;
+}
+.contact-container{
+ display: flex;
+ justify-content: space-between;
+ width:400px
+}
+.bold{
+  font-weight: 600;
+}
+.delivery-img{
+  max-width: 200px;
+  width:100%;
+  object-fit: contain;
+}
+.delivery-container{
+  display: flex;
+  justify-content: center;
+ 
+}
+.delivery-contacts{
+  max-width: 900px;
+  width:100%;
+  margin: 0 auto;
+}
+.delivery-wrapper{
+  max-width: 400px;
+  width: 100%;
+
+ 
 }
